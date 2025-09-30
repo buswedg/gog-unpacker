@@ -1,0 +1,18 @@
+{
+    "gog_service": {
+        "source_type": "gog-service",
+        "source_directory": "E:\\Games\\Unpacked\\GOG.com",
+        "default_destination_directory": "E:\\Games\\GOG.com",
+        "possible_destination_directories": [
+          "E:\\Games\\GOG.com",
+          "D:\\Games\\GOG.com"
+        ],
+        "ignores": [
+            "!downloading",
+            "!orphaned",
+            "bioshock",
+            "bioshock_2"
+        ],
+        "overrides": {}
+    }
+}

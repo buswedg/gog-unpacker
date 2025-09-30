@@ -1,0 +1,9 @@
+.idea
+env
+gogdb/index.sqlite3
+logs
+manifests/*
+shortcuts
+clean.py
+config.jsonc
+.env
