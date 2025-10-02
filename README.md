@@ -37,11 +37,11 @@ pip install -r requirements.txt
 
 ### Command Line Arguments
 
-| Argument | Description                                                                                                                                                                            | Example |
-| :--- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :--- |
-| `--config <KEY>` | Specifies the **key** of the config to process. If omitted, the script processes all configurations defined in your setup.                                                             | `python unpack.py --config gog-games` |
-| `--game <KEY>` | Specifies the **clean key** (or ID) of a single game to process. If omitted, the script processes all games listed in the selected manifest(s).                                        | `python unpack.py --game riven_the_sequel_to_myst` |
-| `--force` | Forces the script to **re-extract/reinstall** the game to its destination directory, even if the source files and version haven't changed.                                             | `python unpack.py --force --game starfield` |
+| Argument | Description                                                                                                                                                                                           | Example |
+| :--- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :------ |
+| `--config <KEY>` | Specifies the **key** of the config to process. If omitted, the script processes all configurations defined in your setup.                                                                    | `python unpack.py --config gog_service` |
+| `--game <KEY>` | Specifies the **raw key** of a single game to process. If omitted, the script processes all games listed in the selected manifest(s).                                                           | `python unpack.py --game bioshock` |
+| `--force` | Forces the script to **re-extract/reinstall** the game to its destination directory, even if the source files and version haven't changed.                                                           | `python unpack.py --force --game bioshock` |
 | `--base-installer-only` | Limits the manifest generation for the selected game(s). Only the main base game installer will be included in the `sorted_installers` list; DLC or extra installers will be excluded. | `python unpack.py --base-installer-only` |
 
 ### Using the Script
