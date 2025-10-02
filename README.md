@@ -33,6 +33,8 @@ call env/Scripts/activate
 pip install -r requirements.txt
 ```
 
+3. Make a copy of '.env.dist' and 'config.jsonc.dist' (renamed to .env and config.jsonc) and update both according to your setup.
+
 ## Usage
 
 ### Command Line Arguments
